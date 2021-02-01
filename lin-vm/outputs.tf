@@ -13,9 +13,9 @@ output "lin_vm_name" {
 }
 
 # lin VM Public IP
-output "lin_vm_public_ip" {
-  value = azurerm_public_ip.lin-vm-ip.ip_address
-}
+#output "lin_vm_public_ip" {
+#  value = azurerm_public_ip.lin-vm-ip.ip_address
+#}
 
 # lin VM Admin Username
 output "vm_admin_username" {

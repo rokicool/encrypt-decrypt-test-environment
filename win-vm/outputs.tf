@@ -8,14 +8,14 @@ output "windows_vm_id" {
 }
 
 # Windows VM Name
-output "windows_vm_name" {
+output "win_vm_name" {
   value = azurerm_windows_virtual_machine.windows-vm.name
 }
 
 # Windows VM Public IP
-output "win_vm_public_ip" {
-  value = azurerm_public_ip.windows-vm-ip.ip_address
-}
+# output "win_vm_public_ip" {
+#  value = azurerm_public_ip.windows-vm-ip.ip_address
+#}
 
 # Windows VM Admin Username
 output "vm_admin_username" {
